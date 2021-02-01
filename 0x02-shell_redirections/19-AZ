@@ -1,2 +1,2 @@
 #!/bin/bash
-read k; tr $k "A" "c" "Z" "e" echo $k
+read k; tr $k "A" "c" | tr "Z" "e" echo $k
