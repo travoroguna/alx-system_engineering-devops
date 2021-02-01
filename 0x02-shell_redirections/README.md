@@ -1,0 +1,27 @@
+total 64K
+drwxr-xr-x 2 travor travor 4.0K Feb  1 22:28 .
+drwxr-xr-x 7 travor travor 4.0K Feb  1 17:34 ..
+-rwxr--r-- 1 travor travor   37 Jan 31 11:50 0-hello_world
+-rwxr--r-- 1 travor travor   28 Jan 31 11:27 1-confused_smiley
+-rwxr--r-- 1 travor travor   28 Jan 31 11:28 2-hellofile
+-rwxr--r-- 1 travor travor   39 Jan 31 11:30 3-twofiles
+-rwxr--r-- 1 travor travor   29 Jan 31 11:33 4-lastlines
+-rwxr--r-- 1 travor travor   29 Jan 31 11:34 5-firstlines
+-rwxr--r-- 1 travor travor   41 Jan 31 11:39 6-third_line
+-rwxr--r-- 1 travor travor   82 Jan 31 11:42 7-file
+-rwxr--r-- 1 travor travor   36 Jan 31 11:43 8-cwd_state
+-rwxr--r-- 1 travor travor   37 Jan 31 11:51 9-duplicate_last_line
+-rwxr--r-- 1 travor travor   25 Jan 31 11:52 10-no_more_js
+-rw-r--r-- 1 travor travor    0 Feb  1 22:27 11-directories
+-rwxr--r-- 1 travor travor   19 Feb  1 11:53 12-newest_files
+-rw-r--r-- 1 travor travor   13 Feb  1 12:32 13-unique
+-rw-r--r-- 1 travor travor   12 Feb  1 13:10 14-findthatword
+-rw-r--r-- 1 travor travor    0 Feb  1 22:26 15-countthatword
+-rw-r--r-- 1 travor travor    0 Feb  1 22:26 16-whatsnext
+-rw-r--r-- 1 travor travor    0 Feb  1 22:26 17-hidethisword
+-rw-r--r-- 1 travor travor    0 Feb  1 22:26 18-letteronly
+-rw-r--r-- 1 travor travor    0 Feb  1 22:26 19-AZ
+-rw-r--r-- 1 travor travor    0 Feb  1 22:26 20-hiago
+-rw-r--r-- 1 travor travor    0 Feb  1 22:26 21-reverse
+-rw-r--r-- 1 travor travor    0 Feb  1 22:27 22-users_and_homes
+-rw-r--r-- 1 travor travor    0 Feb  1 22:28 README.md
