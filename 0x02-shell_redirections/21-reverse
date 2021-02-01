@@ -1,0 +1,2 @@
+#!/bin/bash
+read in ; echo $in | rev
