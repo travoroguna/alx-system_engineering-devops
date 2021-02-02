@@ -1,2 +1,2 @@
 #!/bin/bash
-tr "[Aa]" "[Zz]" |  
+tr "[Aa]" "[Zz]" | tr "[Cc]" "[Ee]" 
