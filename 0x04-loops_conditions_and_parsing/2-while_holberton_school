@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script using while loop
+
+x=1
+while [ $x -le 10 ]
+do
+	echo "Holberton School"
+	((x++))
+done

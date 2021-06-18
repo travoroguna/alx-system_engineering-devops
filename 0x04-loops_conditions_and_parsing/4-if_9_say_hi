@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# script that displays "Holberton school" 10x
+
+counter=1
+
+while [ $counter -lt 11 ]
+do
+	if [[ $counter -ne 9 ]]
+	then
+		echo "Holberton School"
+	else
+		echo "Hi"
+	fi
+
+	((counter++))
+done

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# script prints time using while loop
+
+h_counter=0
+m_counter=1
+
+while [ $h_counter -le 12 ]
+do
+	echo "Hour: $h_counter"
+	m_counter=1
+	while [ $m_counter -le 59 ]
+	do
+		echo $m_counter
+		((m_counter++))
+	done
+	((h_counter++))
+done

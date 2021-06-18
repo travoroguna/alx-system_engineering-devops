@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script that prints contents of a folder
+
+files=$(ls -1)
+
+for x in $files
+do
+	echo "${x#*-}"
+done
