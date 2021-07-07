@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# displays ip version 4
+
+
+/sbin/ip -4 -o addr | awk '{gsub(/\/.*/,"",$4); print $4}'
