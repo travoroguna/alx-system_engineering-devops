@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Paste the command(s) you used to fix the issue in your answer file
+sudo service apache2 restart
