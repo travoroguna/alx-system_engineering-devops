@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Redirect /redirect_me to another page
+apt-get -y update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
+sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://google.com permanent;" /etc/nginx/sites-available/default
+service nginx start
