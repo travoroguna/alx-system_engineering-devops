@@ -1,11 +1,10 @@
 #!/usr/bin/env bash
+#setup haproxy on lb-01
 apt-get install software-properties-common
 apt-get -y update
 apt-get install -y haproxy=2.0.*
 echo "frontend firstbalance" | tee -a /etc/haproxy/haproxy.cfg
-#service haproxy start
 echo "bind *:80" | tee -a /etc/haproxy/haproxy.cfg
-#echo "mode http" | tee -a /etc/haproxy/haproxy.cfg
 echo "default_backend webservers" | tee -a /etc/haproxy/haproxy.cfg
 echo "backend webservers" | tee -a /etc/haproxy/haproxy.cfg
 echo "balance roundrobin" | tee -a /etc/haproxy/haproxy.cfg
