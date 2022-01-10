@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-#Install and configure HAproxy on your lb-01 server.
 apt-get install software-properties-common
 apt-get -y update
-apt-get install haproxy=2.0.\*
+apt-get install -y haproxy=2.0.*
 echo "frontend firstbalance" | tee -a /etc/haproxy/haproxy.cfg
 #service haproxy start
 echo "bind *:80" | tee -a /etc/haproxy/haproxy.cfg
