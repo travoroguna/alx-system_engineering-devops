@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#script that fixes nginx config
+sed -i  s/8080/80/g /etc/nginx/sites-enabled/default
+nginx -s reload
+
