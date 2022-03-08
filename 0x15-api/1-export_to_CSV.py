@@ -55,11 +55,10 @@ def main():
 
     res = [[sys.argv[1], data[0], str(status), task]
            for task, status in data[1]]
-    res = [['{}'.format(y) for y in x] for x in res]
+    res = [["{}".format(y) for y in x] for x in res]
 
     with open(str(sys.argv[1])+".csv", 'w', encoding="utf-8") as csv_file:
-        writer = csv.writer(csv_file)
-
+        writer = csv.writer(csv_file, quoting=csv.QUOTE_NONNUMERIC)
         writer.writerows(res)
 
 
