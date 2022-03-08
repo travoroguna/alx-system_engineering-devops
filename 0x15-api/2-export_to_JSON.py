@@ -2,9 +2,9 @@
 """script that fetches data using an api"""
 
 import json
+import requests
 import sys
 
-import requests
 
 EMPLOYEE_DATA = 'https://jsonplaceholder.typicode.com/users/{}'
 EMPLOYEE_TODOS = 'https://jsonplaceholder.typicode.com/users/{}/todos'

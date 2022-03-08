@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """script that fetches data using an api"""
 
-import sys
 import requests
-
+import sys
 
 EMPLOYEE_DATA = 'https://jsonplaceholder.typicode.com/users/{}'
 EMPLOYEE_TODOS = 'https://jsonplaceholder.typicode.com/users/{}/todos'
